@@ -1,9 +1,3 @@
-// const {createHmac} = require('crypto');
-// const salt ='LJKLxn@(*&^%$%^7kjhghjklkjhbv)(*&^&*()lkjnb":{}|"?>hvLKJHGFTRYUI90876tR%^U&*I(09yiuhjknhugyhfvnbjlkhbvGHJKJHJKL)(*&^*()bn bsvghj';
-// const hash = createHmac('sha512', salt)
-// .update('Jebac PIS')
-// .digest('hex');
-// console.log(hash);
 
 const {hash, compare} = require('bcrypt');
 
